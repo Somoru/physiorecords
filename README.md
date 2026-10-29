@@ -44,7 +44,7 @@ Electron, split the conventional way, with a deliberately narrow bridge between 
                             │  window.api.*   (contextBridge)
 ┌───────────────────────────┴─────────────────────────────────┐
 │  Preload  — the only surface the UI can reach               │
-│  ~25 typed functions, each a thin ipcRenderer.invoke        │
+│  ~40 typed functions, each a thin ipcRenderer.invoke        │
 └───────────────────────────┬─────────────────────────────────┘
                             │  ipcMain.handle
 ┌───────────────────────────┴─────────────────────────────────┐
